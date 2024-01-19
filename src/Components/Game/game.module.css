@@ -1,0 +1,93 @@
+.container {
+    padding-top: 10px;
+    background-image: url(../../../public/img/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 5fr 4fr;
+    gap: 5px;
+}
+
+.clanContainer {
+    display: flex;
+
+    align-items: center;
+    gap: 15px;
+    border-radius: 20px;
+}
+
+.title {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.roleContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 5px;
+}
+
+.pers {
+    flex-basis: 50px;
+    flex-shrink: 2;
+    flex-grow: 2;
+    overflow: hidden;
+}
+
+.img {
+    border: 3px solid #000000;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.pers:hover {
+    transform: scale(1.1, 1.1);
+    z-index: 2;
+}
+
+.name {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.players {
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.player {
+    cursor: pointer;
+    font-size: 25pt;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+    text-align: left;
+}
+
+.player:hover {
+    color: #ffffff
+}
+
+.pers {
+    position: relative;
+    cursor: pointer;
+}
+
+.count {
+    position: absolute;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+    left: 0px;
+    bottom: 5px;
+}
+

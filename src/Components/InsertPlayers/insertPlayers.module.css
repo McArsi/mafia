@@ -1,0 +1,68 @@
+.container {
+    padding-top: 10px;
+    background-image: url(../../../public/img/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+.item {
+    margin-bottom: 10px;
+    border: 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+
+
+.num {
+    font-size: 25pt;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+    margin-right: 10px;
+}
+
+.name{ 
+    color: #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 22pt;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.name:focus {
+    outline: none;
+    box-shadow: 0 0 10px #cccccc;
+    border-color: #cccccc
+}
+
+.game {
+    position: absolute;
+    font-size: 15pt;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Aeroport';
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer; 
+    bottom: 20px;
+    right: 40px;
+}
+
+.game:hover {
+    background-color: #cccccc;
+}

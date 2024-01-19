@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    padding-top: 10px;
+    background-image: url(../../../public/img/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.item {
+    width: 1170px;
+    height: 570px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.img {
+    position: relative;
+}
+
+.avatar {
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.count {
+    color: #cccccc;
+    font-size: 85pt;
+    font-weight: bold;
+    position: absolute;
+    top: 3%;
+    left: 13%;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.text {
+    width: 500px;
+    height: 500px;
+}
+
+.name{
+    font-size: 55pt;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000000;
+    color: #cccccc
+}
+
+.clan{
+    font-size: 25pt;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px #000000;
+    color: #8a8989
+}
+
+.desc, p {
+    margin-top: 20px;
+    color: #cccccc;
+    font-size: 18pt;
+    text-align: left;
+    text-shadow: 2px 2px 5px #000000;
+    font-weight: bold;
+}
+
+.controlButton {
+  font-size: 80pt;
+  cursor: pointer;
+  color: #cccccc;
+  border: 0;
+  background-color: transparent;
+}
+
+.controlButton:hover {
+  color: #9b9b9b
+}
+
+.gameButton {
+    position: absolute;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Aeroport';
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer; 
+    bottom: 30px;
+    right: 30px;
+}

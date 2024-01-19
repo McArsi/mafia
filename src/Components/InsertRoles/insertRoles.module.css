@@ -1,0 +1,85 @@
+.container {
+    padding-top: 10px;
+    background-image: url(../../../public/img/background.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    gap: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.item {
+    cursor: pointer;
+}
+
+.name {
+    font-size: 15pt;
+    font-weight: bold;
+    color: #cccccc;
+    text-shadow: 2px 2px 5px #000000;
+}
+
+.check {
+    display: none;
+}
+
+.manual {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.counter {
+    font-size: 50pt;
+    line-height: 120px;
+    text-align: center;
+    color: #cccccc;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.counter, .green, .img {
+    border: 5px solid #cccccc;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.pic {
+    position: relative;
+}
+
+.choosed {
+    border: 5px solid #2e3e2b;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.green {
+    color: #cccccc;
+    font-size: 65pt;
+    text-align: center;
+    border: 0;
+    top: 5px;
+    left: 56px;
+    position: absolute;
+    background-color: #4c6747;
+    opacity: 70%;
+}
+
+.gameButton {
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Aeroport';
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 0;
+    cursor: pointer; 
+}
+
+.gameButton:hover {
+    background-color: #cccccc;
+}
